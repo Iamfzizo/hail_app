@@ -11,31 +11,39 @@
         android:theme="@style/Theme.HailApp">
         <activity
             android:name=".CPlanUI"
-            android:exported="true" />
+            android:exported="true" 
+            android:permission=""/>
         <activity
             android:name=".academicRecordUI"
-            android:exported="true" />
+            android:exported="true" 
+            android:permission=""/>
         <activity
             android:name=".scheduleUI"
-            android:exported="true" />
+            android:exported="true" 
+            android:permission=""/>
         <activity
             android:name=".GradesUI"
-            android:exported="true" />
+            android:exported="true" 
+            android:permission=""/>
         <activity
             android:name=".attendanceRecordUI"
-            android:exported="true" />
+            android:exported="true" 
+            android:permission=""/>
         <activity
             android:name=".PersonalProfileUI"
-            android:exported="true" />
+            android:exported="true" 
+            android:permission=""/>
         <activity
             android:name=".LogInUI"
-            android:exported="true" />
+            android:exported="true" 
+            android:permission=""/>
         <activity
             android:name=".HomePageUI"
-            android:exported="true" />
+            android:exported="true" 
+            android:permission=""/>
         <activity
             android:name=".MainActivityUI"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
